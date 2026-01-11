@@ -39,8 +39,7 @@ logs/
 # Build output
 dist/
 
-# Generated files
-db/sqlc/*.go
+# Generated files (swagger only - sqlc is committed for CI)
 docs/swagger/docs.go
 docs/swagger/swagger.json
 docs/swagger/swagger.yaml
